@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1589637505714" stop="1589637613863" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>First Appium Project on Android</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1589637505741" stop="1589637537582" status="passed">
+            <name>Open the app on android</name>
+            <title>Open the app on android</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589637521360" stop="1589637522866" status="passed">
+                    <name>Given I open the app</name>
+                    <title>Given I open the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637522867" stop="1589637526373" status="passed">
+                    <name>When I click on preferences field</name>
+                    <title>When I click on preferences field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637526374" stop="1589637529923" status="passed">
+                    <name>Then I click on preferences dependency field</name>
+                    <title>Then I click on preferences dependency field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637529923" stop="1589637536889" status="passed">
+                    <name>Then I select the checkbox</name>
+                    <title>Then I select the checkbox</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637536891" stop="1589637537579" status="passed">
+                    <name>Then I pass the value "Hello" in the input field</name>
+                    <title>Then I pass the value "Hello" in the input field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Open the app on android"/>
+                <label name="feature" value="First Appium Project on Android"/>
+                <label name="host" value="WKWIN5950833"/>
+                <label name="thread" value="88476@WKWIN5950833.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1589637537657" stop="1589637595976" status="passed">
+            <name>Open the app on IOS</name>
+            <title>Open the app on IOS</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589637588146" stop="1589637588148" status="passed">
+                    <name>Given I open tha app on ios</name>
+                    <title>Given I open tha app on ios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637588149" stop="1589637589798" status="passed">
+                    <name>When I Click on text box</name>
+                    <title>When I Click on text box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637589799" stop="1589637592825" status="passed">
+                    <name>Then I pass the input value "Testing the field"</name>
+                    <title>Then I pass the input value "Testing the field"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637592825" stop="1589637595976" status="passed">
+                    <name>Then I get the text from input field</name>
+                    <title>Then I get the text from input field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Open the app on IOS"/>
+                <label name="feature" value="First Appium Project on Android"/>
+                <label name="host" value="WKWIN5950833"/>
+                <label name="thread" value="88476@WKWIN5950833.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1589637595977" stop="1589637613857" status="passed">
+            <name>Create a request of an API</name>
+            <title>Create a request of an API</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589637595978" stop="1589637609166" status="passed">
+                    <name>Given Add Place to Payload</name>
+                    <title>Given Add Place to Payload</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637609166" stop="1589637612344" status="passed">
+                    <name>When user calls "AddPlaceAPI" with "POST" http request</name>
+                    <title>When user calls "AddPlaceAPI" with "POST" http request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637612345" stop="1589637612345" status="passed">
+                    <name>Then the API call got success with status code 200</name>
+                    <title>Then the API call got success with status code 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637612345" stop="1589637613825" status="passed">
+                    <name>And "status" in response body is "OK"</name>
+                    <title>And "status" in response body is "OK"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589637613828" stop="1589637613857" status="passed">
+                    <name>And "scope" in response body is "APP"</name>
+                    <title>And "scope" in response body is "APP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Create a request of an API"/>
+                <label name="feature" value="First Appium Project on Android"/>
+                <label name="host" value="WKWIN5950833"/>
+                <label name="thread" value="88476@WKWIN5950833.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="First Appium Project on Android"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,10 @@
+17:13:35,360 DEBUG devpinoyLogger:58 - Config file is loaded
+17:13:35,364 DEBUG devpinoyLogger:65 - OR file is loaded
+17:13:38,530 DEBUG devpinoyLogger:76 - Chrome is launched
+17:13:42,768 DEBUG devpinoyLogger:14 - Inside login test
+17:13:43,150 DEBUG devpinoyLogger:18 - Inside add customer test
+17:13:43,996 DEBUG devpinoyLogger:27 - Alert is present
+17:13:44,005 DEBUG devpinoyLogger:29 - Alert is accepetd
+17:13:47,010 DEBUG devpinoyLogger:18 - Inside add customer test
+17:13:47,516 DEBUG devpinoyLogger:27 - Alert is present
+17:13:47,525 DEBUG devpinoyLogger:29 - Alert is accepetd

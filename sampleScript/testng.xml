@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <listeners>
+   <listener class-name="retrylogic.MyTransformer"></listener>
+</listeners> -->
+
+  <test name="Test">
+  <groups>		
+   <run>		
+    <include name="Titletest" />		
+   </run>		
+  </groups>	
+    <classes>
+     <!-- <class name="com.mcom.qa.testCases.HomePageTest"/> -->
+      <!-- <class name="com.marriotqa.sampleScript.AppTest"/> -->
+      <!--<class name="TestLogic.MyTests"/> -->
+      <class name="com.qa.testngOne.LoginTest"/>
+      <class name="com.qa.testNgTwo.RegisterTest"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,6 @@
+hooks\GeneralHooks.class
+pojo\Location.class
+AndroidPagedata\AndroidPage.class
+com\appiumios\base\BaseTest.class
+pojo\AddPlace.class
+stepDefination\MyFirstStepDefination.class

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-25T12:52:30Z" name="DataDriverFramework" finished-at="2020-04-25T12:52:37Z" duration-ms="7198">
+    <groups>
+    </groups>
+    <test started-at="2020-04-25T12:52:30Z" name="Bank Manager Login Test" finished-at="2020-04-25T12:52:30Z" duration-ms="282">
+      <class name="com.w2a.testCases.BankManagerLoginTest">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testCases.BankManagerLoginTest@b78a709]" started-at="2020-04-25T18:22:30Z" name="loginAsBankManager" finished-at="2020-04-25T18:22:30Z" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.w2a.testCases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test started-at="2020-04-25T12:52:30Z" name="Add Customer Test" finished-at="2020-04-25T12:52:37Z" duration-ms="6889">
+      <class name="com.w2a.testCases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testCases.AddCustomerTest@726e5805]" started-at="2020-04-25T18:22:25Z" name="setUp" finished-at="2020-04-25T18:22:30Z" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testCases.AddCustomerTest@726e5805]" started-at="2020-04-25T18:22:30Z" name="addCustomer" data-provider="getData" finished-at="2020-04-25T18:22:34Z" duration-ms="3493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A23ZX]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testCases.AddCustomerTest@726e5805]" started-at="2020-04-25T18:22:34Z" name="addCustomer" data-provider="getData" finished-at="2020-04-25T18:22:37Z" duration-ms="3381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Piyush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bansal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A23ZX]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testCases.AddCustomerTest@726e5805]" started-at="2020-04-25T18:22:37Z" name="tearDown" finished-at="2020-04-25T18:22:38Z" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testCases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- DataDriverFramework -->
+</testng-results>

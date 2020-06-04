@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Mercuruy Login Page",
+        "description": "",
+        "id": "first-appium-project;mercuruy-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "open the app",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "click on preferences",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on preferences dependency",
+            "match": {
+              "location": "AndroidStepDefination.click_on_preferences_dependency()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "select the checkbox",
+            "match": {
+              "location": "AndroidStepDefination.select_the_checkbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Appium Project",
+    "description": "",
+    "id": "first-appium-project",
+    "keyword": "Feature",
+    "uri": "first.feature"
+  }
+]
